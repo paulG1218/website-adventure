@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;600&family=Martian+Mono:wght@100;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #top {
+            font-size: 100px;
+        }
+        .Back {
+            color: olivedrab;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 70px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            font-family: 'Young Serif', serif;
+            padding: 8px;
+            border-width: 2px;
+            border-color: white;
+        }
+        body {
+            text-align: center;
+            background-color: olivedrab;
+            color: white;
+        }
+        h1 {
+            font-family: 'Young Serif', serif;
+        }
+        #theControl {
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            display: inline-block;
+        }
+    </style>
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <h1 id="top">
+        Welcome adventurer!
+    </h1>
+    <h3 id="sub">
+        Care to try the button?
+    </h3>
+    <div id="theControl">
+        <button id="color">Change color</button>
+        <input type="text" placeholder="Name" id="nameBox" hidden>
+        <button id="Continue" hidden>Hello website!</button>
+        <input type="text" id="favColor" placeholder="Color" hidden>
+        <button id="thanksButton" hidden></button>
+    </div>
+    <h1 class="Back">
+        Change it back >:(</h1>
+    <script src="index.js"></script>
+</body>
+</html>
